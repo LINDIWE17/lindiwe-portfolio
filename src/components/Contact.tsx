@@ -19,14 +19,14 @@ const Contact = () => {
                   <div className="w-10 text-highlight">📧</div>
                   <div>
                     <p className="text-gray-400">Email</p>
-                    <p>lindiwe.mphuthi@example.com</p>
+                    <p>lindiwemphuthi44@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <div className="w-10 text-highlight">📱</div>
                   <div>
                     <p className="text-gray-400">Phone</p>
-                    <p>+1 234 567 890</p>
+                    <p>+27 64 155 2603</p>
                   </div>
                 </div>
                 <div className="flex items-center">
