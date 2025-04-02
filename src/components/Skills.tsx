@@ -27,6 +27,11 @@ const Skills = () => {
       title: "JavaScript",
       icon: "⚡",
       description: "Adding interactivity and dynamic features to enhance user experience."
+    },
+    {
+      title: "Python",
+      icon: "🐍",
+      description: "Building applications, data analysis, and solving complex problems with Python."
     }
   ];
 
@@ -34,7 +39,7 @@ const Skills = () => {
     <section id="skills" className="py-24">
       <div className="section-container">
         <h2 className="section-title">My <span className="text-highlight">Skills</span></h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((skill, index) => (
             <SkillCard key={index} {...skill} />
           ))}
