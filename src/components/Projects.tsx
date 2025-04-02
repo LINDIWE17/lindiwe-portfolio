@@ -52,20 +52,20 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
 const Projects = () => {
   const projects: ProjectProps[] = [
     {
-      title: "Personal Blog",
-      description: "A responsive blog website showcasing my writing and frontend skills.",
-      image: "📒",
+      title: "API Project",
+      description: "A RESTful API development project showcasing backend skills and API integration.",
+      image: "🔄",
       tags: ["HTML", "CSS", "JavaScript"],
-      demoUrl: "#",
-      codeUrl: "#"
+      demoUrl: "https://github.com/LINDIWE17/API.git",
+      codeUrl: "https://github.com/LINDIWE17/API.git"
     },
     {
-      title: "Recipe Finder",
-      description: "A web application that allows users to search for recipes by ingredients.",
-      image: "🍳",
+      title: "Python Week 3",
+      description: "A Python project demonstrating programming concepts and problem-solving skills.",
+      image: "🐍",
       tags: ["HTML", "CSS", "JavaScript"],
-      demoUrl: "#",
-      codeUrl: "#"
+      demoUrl: "https://github.com/LINDIWE17/PythonWeek3.git",
+      codeUrl: "https://github.com/LINDIWE17/PythonWeek3.git"
     },
     {
       title: "Weather Dashboard",

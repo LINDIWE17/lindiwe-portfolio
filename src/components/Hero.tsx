@@ -11,7 +11,7 @@ const Hero = () => {
           </h1>
           <div className="overflow-hidden h-12 md:h-14">
             <p className="text-xl md:text-2xl text-gray-400 font-mono animate-typing whitespace-nowrap overflow-hidden">
-              Frontend Developer
+              Software Developer
             </p>
           </div>
           <div className="mt-12">
